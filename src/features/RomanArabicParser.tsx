@@ -5,7 +5,7 @@ interface Props {
   onChange: (value: number|null) => void;
 }
 
-export class RomanArabicParser extends React.Component<Props, { romanNumber: string }> {
+export class RomanArabicParser extends React.Component<Props> {
   render() {
     return (
       <div>
