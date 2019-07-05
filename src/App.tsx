@@ -15,7 +15,7 @@ export class App extends React.Component<Props, { value: number }> {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{ padding: '1rem' }}>
         <header className="App-header">
           <h2>Roman Numerals to Arabic Numbers</h2>
         </header>
